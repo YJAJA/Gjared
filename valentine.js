@@ -23,5 +23,6 @@ noBtn.addEventListener("mouseover", () => {
 });
 
  yesBtn.addEventListener("click", () => {
-  window.location.href = "yes.html";
+  window.open("yes.html", "_blank");
 });
+
